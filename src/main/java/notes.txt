@@ -6,12 +6,14 @@ Programs:
 Note:
 * The default scope of the spring bean is singleton, we change the baen scope.
 * scope attribute is used to change the bean scope in Xml configuration file.
-* There are five types of scopes in spring those are:
+* There are 7 types of scopes in spring those are:
 1. Singleton - Single object in spring container.
 2. Prototype - Every time new object is created in spring container.
 3. Request - For every request new object is created in spring container.
-4. Session - For every new session one new Object is created in spring container
-5. Global Context/ Global Session - It create one object for all portlet access
+4. Session - For every new session one new Object is created in spring container.
+5. GlobalContext/ GlobalSession - It create one object for all portlet access.
+6. Application
+7. Websocket
 Output:
 Employee Bean Hashcodes:
 1816757085
