@@ -1,0 +1,24 @@
+A Program to show how to configure scope of the bean using Xml configuration file:
+Programs:
+* Employee.java
+* Student.java
+* Test.java
+Note:
+* The default scope of the spring bean is singleton, we change the baen scope.
+* scope attribute is used to change the bean scope in Xml configuration file.
+* There are five types of scopes in spring those are:
+1. Singleton - Single object in spring container.
+2. Prototype - Every time new object is created in spring container.
+3. Request - For every request new object is created in spring container.
+4. Session - For every new session one new Object is created in spring container
+5. Global Context/ Global Session - It create one object for all portlet access
+Output:
+Employee Bean Hashcodes:
+1816757085
+1816757085
+1816757085
+Student Bean Hashcodes:
+1325808650
+510464020
+1987083830
+
