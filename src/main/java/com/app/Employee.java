@@ -1,7 +1,7 @@
 package com.app;
 
 public class Employee {
-	private String empId;
+	private Integer empId;
 	private String empName;
 	private Integer age;
 	private String designation;
@@ -10,7 +10,7 @@ public class Employee {
 		super();
 	}
 
-	public Employee(String empId, String empName, Integer age, String designation) {
+	public Employee(Integer empId, String empName, Integer age, String designation) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
