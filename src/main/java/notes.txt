@@ -6,6 +6,7 @@ Programs:
 Note:
 * The default scope of the spring bean is singleton, we change the baen scope.
 * scope attribute is used to change the bean scope in Xml configuration file.
+* if we didn't mention the scope attribute then that bean as default scope as singleton.
 * There are 7 types of scopes in spring those are:
 1. Singleton - Single object in spring container.
 2. Prototype - Every time new object is created in spring container.
